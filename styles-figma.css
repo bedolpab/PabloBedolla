@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --black: #000000;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-family: JetBrains Mono;
+    background-color: var(--white);
+    color: var(--black);
+    white-space: wrap;
+    /* Animations */
+    -o-animation: fadeIn 4s;
+    -ms-animation: fadeIn 4s;
+    -moz-animation: fadeIn 4s;
+    -webkit-animation: fadeIn 4s;
+    animation: fadeIn 4s;
+}
+ 
+/* Documentation Section */
+.ss-documentation {
+    text-align: center;
+    margin-top: 2rem;
+    margin: auto;
+}
+
+.ss-documentation--sttl {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.ss-documentation--line {
+    text-align: center;
+    width: 18rem;
+    height: 0.08rem;
+    margin: auto;
+    background-color: var(--black);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+/* Footer Section */
+footer {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+.ss-footer--line {
+    text-align: center;
+    width: 23rem;
+    height: 0.08rem;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: var(--black);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}

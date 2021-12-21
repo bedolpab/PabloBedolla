@@ -1,0 +1,198 @@
+
+<section class="projects-boxes">
+                <div class="project-one">
+                    <h4 class="project-one-txt">The Woodlands</h4>
+                    <div class="project-one-visibility">
+                        <h4>Public</h4>
+                    </div>
+                    <p>A post-apocalyptic, WPF, 2D object-oriented programming game using C# and XAML. It was a final project developed for my PROG 101 "Introduction to Programming" course at Columbia College Chicago.</p>
+                    <section class="project-one-programming-lang-used">
+                        <div class="project-one-programming-lang-used-circle"></div>
+                        <h4>C#</h4>
+                    </section>
+                </div>
+
+                <div class="project-two">
+                    <h4 class="project-two-txt">Liminal Space Game</h4>
+                    <div class="project-two-visibility">
+                        <h4>Public</h4>
+                    </div>
+                    <p>Midterm project developed for my PROG 101 "Introduction to Programming" course at Columbia College Chicago. The project demonstrates the ability to utilize OOP principles inheritance, encapsulation, and polymorphism using C#.</p>
+                    <section class="project-two-programming-lang-used">
+                        <div class="project-two-programming-lang-used-circle"></div>
+                        <h4>C#</h4>
+                    </section>
+                </div>
+            </section>
+/* Projects Section */
+.ss-projects {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.ss-projects--sttl {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.ss-projects--sttl img {
+    width: 2.4rem;
+}
+
+.ss-projects--line {
+    text-align: center;
+    width: 23rem;
+    height: 0.08rem;
+    margin: auto;
+    background-color: var(--black);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+
+/* Project One */
+.project-boxes {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+
+.project-one {
+    position: relative;
+    background-color: #2C251B;
+    border-radius: 2rem;
+    color: var(--white);
+    margin: auto 20px;
+}
+
+.project-one-txt {
+    display: flex;
+    align-content: left;
+    justify-content: left;
+    white-space: nowrap;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.project-one-visibility h4 {
+    border: 0.2rem solid var(--white);
+    opacity: 50%;
+    line-height: 30px;
+    border-radius: 43px;
+    list-style-type: none;
+    width: 30%;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.project-one-visibility {
+    display: flex;
+    align-content: right;
+    justify-content: right;
+    margin-right: 20px;
+    margin-top: -70px;
+}
+
+.project-one p {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-one-programming-lang-used {
+    display: flex;
+    align-content: left;
+    justify-content: left;
+}
+
+.project-one-programming-lang-used-circle {
+    height: 30px;
+    width: 30px;
+    background-color: var(--green);
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.project-one-programming-lang-used h4 {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+
+/* Project Two */
+.project-two {
+    position: static;
+    background-color: #2C251B;
+    border-radius: 2rem;
+    color: var(--white);
+    margin: auto 20px;
+}
+
+.project-two-txt {
+    display: flex;
+    align-content: left;
+    justify-content: left;
+    white-space: wrap;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 125px;
+    text-align: left;
+}
+
+.project-two-visibility h4 {
+    border: 0.2rem solid var(--white);
+    opacity: 50%;
+    line-height: 30px;
+    border-radius: 43px;
+    list-style-type: none;
+    width: 30%;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.project-two-visibility {
+    display: flex;
+    align-content: right;
+    justify-content: right;
+    margin-right: 20px;
+    margin-top: -70px;
+}
+
+.project-two p {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-two-programming-lang-used {
+    display: flex;
+    align-content: left;
+    justify-content: left;
+}
+
+.project-two-programming-lang-used-circle {
+    height: 30px;
+    width: 30px;
+    background-color: var(--green);
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.project-two-programming-lang-used h4 {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}

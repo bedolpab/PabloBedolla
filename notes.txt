@@ -1,0 +1,33 @@
+.csharp {
+        position: relative;
+        margin-top: 2rem;
+        background-color: red;
+    }
+
+    .csharp p {
+        position: relative;
+        display: inline-block;
+        font-size: 1.3rem;
+        background-color: blue;
+        margin: auto;
+        width: 50%;
+        float: left;
+        text-align: right;
+        padding-right: 
+    }
+
+    .csharp .bar {
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 2rem;
+        margin: auto;
+        width: 50%;
+        border-radius: 13px;
+        background: #e0e0e0;
+        box-shadow: inset 4px 4px 7px #bcbcbc, inset -4px -4px 7px #ffffff;      
+        height: 1rem;
+        width: 12rem;
+    }
+    
