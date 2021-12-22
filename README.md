@@ -1,5 +1,5 @@
 # Personal Website (Portfolio)
-Personal Website (Portfolio) developed using HTML and CSS. This template is free to use for anyone. Icons used for website credited inside .html file.
+Personal Website (Portfolio) developed using HTML and CSS. This template is free to use for anyone. Icons used for website credited inside "index.html" file.
 
 ##### Go to website: [Website](https://pablobedolla.com/)
 
