@@ -137,6 +137,10 @@ body {
     border-radius: 4px;
 }
 
+.ss-skills--content {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
 .ss-skills--content-project {
     color: var(--black);
     text-decoration: none;
@@ -1172,36 +1176,36 @@ footer p {
 /* Opera */
 @-o-keyframes git-bar {
     0% {width: 10%; }
-    20% {width: 40%;}
-    90% {width: 40%;}
+    20% {width: 60%;}
+    90% {width: 60%;}
     100% {width: 10%;}
 }
 /* Internet Explore 10 */
 @-ms-keyframes git-bar {
     0% {width: 10%; }
-    20% {width: 40%;}
-    90% {width: 40%;}
+    20% {width: 60%;}
+    90% {width: 60%;}
     100% {width: 10%;}
 }
 /* Firefox */
 @-moz-keyframes git-bar {
     0% {width: 10%; }
-    20% {width: 40%;}
-    90% {width: 40%;}
+    20% {width: 60%;}
+    90% {width: 60%;}
     100% {width: 10%;}
 }
 /* Webkit */
 @-webkit-keyframes git-bar {
     0% {width: 10%; }
-    20% {width: 40%;}
-    90% {width: 40%;}
+    20% {width: 60%;}
+    90% {width: 60%;}
     100% {width: 10%;}
 }
 
 @keyframes git-bar {
     0% {width: 10%; }
-    20% {width: 40%;}
-    90% {width: 40%;}
+    20% {width: 60%;}
+    90% {width: 60%;}
     100% {width: 10%;}
 }
 
