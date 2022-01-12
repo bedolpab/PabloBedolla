@@ -10,13 +10,14 @@
 
 /* Color Variables */
 :root {
-    --black: #000000;
     --white: #FAFAFA;
-    --white-shadow: #EAEAEA;
+    --black: #111111;
+    --black-shadow: #5d5d5d;
     --green: #75B486;
-    --box-before: #000000;
-    --box-after: #222222;
+    --box-before: #EAEAEA;
+    --box-after: #a3a3a3;
 }
+
 
 html, body {
     max-width: 100%;
@@ -46,8 +47,8 @@ body {
     flex-direction: column;
     margin-top: 2em;
     font-family: JetBrains Mono;
-    background-color: var(--white);
-    color: var(--black);
+    background-color: var(--black);
+    color: var(--white);
 
     /* Animations */
     -o-animation: fadeIn 4s;
@@ -67,8 +68,8 @@ body {
     /* VMAX 2 FOR DESKTOP VMAX 3 FOR MOBILE SCREENS */
     font-size: 2.6vmax;
     /* 3vmax for smaller screen sizes */
-    border-right: .05em solid var(--black);
-    color: var(--black);
+    border-right: .05em solid var(--white);
+    color: var(--white);
 
     /* Animations */
     -o-animation: typing 30s steps(60, end) infinite, cursor-blink 1s infinite;
@@ -99,7 +100,7 @@ body {
     width: 23rem;
     height: 0.08rem;
     margin: auto;
-    background-color: var(--black);
+    background-color: var(--white);
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
@@ -131,7 +132,7 @@ body {
     width: 23rem;
     height: 0.08rem;
     margin: auto;
-    background-color: var(--black);
+    background-color: var(--white);
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
@@ -142,7 +143,7 @@ body {
     margin-right: 2rem;
 }
 .ss-skills--content-project {
-    color: var(--black);
+    color: var(--white);
     text-decoration: none;
     -webkit-transition: 1s;
     -moz-transition: 1s;
@@ -170,7 +171,7 @@ body {
     height: 2rem;
     width: 19rem;
     margin: auto;
-    background-color: var(--white-shadow);
+    background-color: var(--black-shadow);
     -moz-border-radius: 43x;
     -webkit-border-radius: 43px;
     border-radius: 43px;  
@@ -192,7 +193,7 @@ body {
     -moz-border-radius: 43x;
     -webkit-border-radius: 43px;
     border-radius: 43px; 
-    background-color: var(--black);
+    background-color: var(--white);
 
     /* Animations */
     -o-animation: csharp-bar 10s;
@@ -207,20 +208,19 @@ body {
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
 }
-
-/* WPF and Xaml Efficiency Bar */
-.wpf-and-xaml {
+/* SQL Efficiency Bar */
+.sql {
     display: inline-block;
     text-align: center;
     width: 100%;
 }
 
-.wpf-and-xaml p {
+.sql p {
     font-size: 1.7rem;
 }
 
 /* Background Bar */
-.wpf-and-xaml--bar {
+.sql--bar {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -230,14 +230,14 @@ body {
     height: 2rem;
     width: 19rem;
     margin: auto;
-    background-color: var(--white-shadow);
+    background-color: var(--black-shadow);
     -moz-border-radius: 43x;
     -webkit-border-radius: 43px;
     border-radius: 43px;  
 }
 
 /* Efficiency Bar Span */
-.wpf-and-xaml--bar span {
+.sql--bar span {
     display: block;
     height: 100%;
     width: 50%;
@@ -247,18 +247,77 @@ body {
 }
 
 /* Efficiency Bar */
-.wpf-and-xaml--bar-efficiency {
+.sql--bar-efficiency {
     -moz-border-radius: 43x;
     -webkit-border-radius: 43px;
     border-radius: 43px; 
-    background-color: var(--black);
+    background-color: var(--white);
 
     /* Animations */
-    -o-animation: wpf-and-xaml-bar 10s;
-    -ms-animation: wpf-and-xaml-bar 10s;
-    -moz-animation: wpf-and-xaml-bar 10s;
-    -webkit-animation: wpf-and-xaml-bar 10s;
-    animation: wpf-and-xaml-bar 10s;
+    -o-animation: sql-bar 10s;
+    -ms-animation: sql-bar 10s;
+    -moz-animation: sql-bar 10s;
+    -webkit-animation: sql-bar 10s;
+    animation: sql-bar 10s;
+
+    /* Animation Iterations */
+    -o-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+/* Unix and Bash Efficiency Bar */
+.unix-and-bash {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.unix-and-bash p {
+    font-size: 1.7rem;
+}
+
+/* Background Bar */
+.unix-and-bash--bar {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    height: 2rem;
+    width: 19rem;
+    margin: auto;
+    background-color: var(--black-shadow);
+    -moz-border-radius: 43x;
+    -webkit-border-radius: 43px;
+    border-radius: 43px;  
+}
+
+/* Efficiency Bar Span */
+.unix-and-bash--bar span {
+    display: block;
+    height: 100%;
+    width: 50%;
+    -moz-border-radius: 43x;
+    -webkit-border-radius: 43px;
+    border-radius: 43px; 
+}
+
+/* Efficiency Bar */
+.unix-and-bash--bar-efficiency {
+    -moz-border-radius: 43x;
+    -webkit-border-radius: 43px;
+    border-radius: 43px; 
+    background-color: var(--white);
+
+    /* Animations */
+    -o-animation: unix-and-bash-bar 10s;
+    -ms-animation: unix-and-bash-bar 10s;
+    -moz-animation: unix-and-bash-bar 10s;
+    -webkit-animation: unix-and-bash-bar 10s;
+    animation: unix-and-bash-bar 10s;
 
     /* Animation Iterations */
     -o-animation-iteration-count: infinite;
@@ -289,7 +348,7 @@ body {
     height: 2rem;
     width: 19rem;
     margin: auto;
-    background-color: var(--white-shadow);
+    background-color: var(--black-shadow);
     -moz-border-radius: 43x;
     -webkit-border-radius: 43px;
     border-radius: 43px;  
@@ -310,7 +369,7 @@ body {
     -moz-border-radius: 43x;
     -webkit-border-radius: 43px;
     border-radius: 43px; 
-    background-color: var(--black);
+    background-color: var(--white);
 
     /* Animations */
     -o-animation: html5-and-css3-bar 10s;
@@ -348,7 +407,7 @@ body {
     height: 2rem;
     width: 19rem;
     margin: auto;
-    background-color: var(--white-shadow);
+    background-color: var(--black-shadow);
     -moz-border-radius: 43x;
     -webkit-border-radius: 43px;
     border-radius: 43px;  
@@ -369,7 +428,7 @@ body {
     -moz-border-radius: 43x;
     -webkit-border-radius: 43px;
     border-radius: 43px; 
-    background-color: var(--black);
+    background-color: var(--white);
 
     /* Animations */
     -o-animation: git-bar 10s;
@@ -405,7 +464,7 @@ body {
     width: 23rem;
     height: 0.08rem;
     margin: auto;
-    background-color: var(--black);
+    background-color: var(--white);
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
@@ -451,7 +510,7 @@ body {
     -moz-border-radius: 2rem;
     -webkit-border-radius: 2rem;
     border-radius: 2rem;
-    color: var(--white);
+    color: var(--black);
     -webkit-transition:0.5s;
     -moz-transition: 0.5s;
     -o-transition:0.5s;
@@ -459,9 +518,9 @@ body {
 }
 
 .project-one--box:hover{
-    -webkit-box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem var(--white-shadow);
-    -moz-box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem var(--white-shadow);
-    box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem var(--white-shadow);
+    -webkit-box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem var(--black-shadow);
+    -moz-box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem var(--black-shadow);
+    box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem var(--black-shadow);
     -webkit-transform: translateY(-0.3rem);
     -ms-transform: translateY(-0.3rem);
     transform: translateY(-0.3rem);
@@ -495,7 +554,7 @@ body {
 }
 
 .project-one--visibility--txt {
-    border: 0.2rem solid var(--white);
+    border: 0.2rem solid var(--black);
     opacity: 50%;
     line-height: 30px;
     -moz-border-radius: 43px;
@@ -598,7 +657,7 @@ body {
     -moz-border-radius: 2rem;
     -webkit-border-radius: 2rem;
     border-radius: 2rem;
-    color: var(--white);
+    color: var(--black);
     -webkit-transition:0.5s;
     -moz-transition: 0.5s;
     -o-transition:0.5s;
@@ -606,9 +665,9 @@ body {
 }
 
 .project-two--box:hover {
-    -webkit-box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem var(--white-shadow);
-    -moz-box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem var(--white-shadow);
-    box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem var(--white-shadow);
+    -webkit-box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem var(--black-shadow);
+    -moz-box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem var(--black-shadow);
+    box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem var(--black-shadow);
     -webkit-transform: translateY(-0.3rem);
     -ms-transform: translateY(-0.3rem);
     transform: translateY(-0.3rem);
@@ -643,7 +702,7 @@ body {
 }
 
 .project-two--visibility--txt {
-    border: 0.2rem solid var(--white);
+    border: 0.2rem solid var(--black);
     opacity: 50%;
     line-height: 30px;
     -moz-border-radius: 43px;
@@ -741,7 +800,7 @@ body {
     width: 23rem;
     height: 0.08rem;
     margin: auto;
-    background-color: var(--black);
+    background-color: var(--white);
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
@@ -767,7 +826,7 @@ body {
     float: left;
     width: 33%;
     position: relative;
-    color: var(--black);
+    color: var(--white);
     text-decoration: none;
     -webkit-transition: 1s;
     -moz-transition: 1s;
@@ -776,10 +835,10 @@ body {
 }
 
 .ss-about--content-github:hover {
-    color: var(--black);
-    -webkit-box-shadow: 0.1rem 0.2rem var(--white-shadow);
-    -moz-box-shadow: 0.1rem 0.2rem var(--white-shadow);
-    box-shadow: 0.1rem 0.2rem var(--white-shadow);
+    color: var(--white);
+    -webkit-box-shadow: 0.1rem 0.2rem var(--black-shadow);
+    -moz-box-shadow: 0.1rem 0.2rem var(--black-shadow);
+    box-shadow: 0.1rem 0.2rem var(--black-shadow);
     -webkit-transform: translateY(-0.3rem);
     -ms-transform: translateY(-0.3rem);
     transform: translateY(-0.3rem);
@@ -793,7 +852,7 @@ body {
     height: 1px;
     bottom: 0;
     left: 0;
-    background-color: var(--black);
+    background-color: var(--white);
     -webkit-transform: scaleX(0);
     -ms-transform: scaleX(0);
     transform: scaleX(0);
@@ -810,9 +869,9 @@ body {
 }
 
 .ss-about--content-github:active {
-    -webkit-box-shadow: inset auto 1.2rem 1rem var(--white-shadow);
-    -moz-box-shadow: inset auto 1.2rem 1rem var(--white-shadow);
-    box-shadow: inset auto 1.2rem 1rem var(--white-shadow);
+    -webkit-box-shadow: inset auto 1.2rem 1rem var(--black-shadow);
+    -moz-box-shadow: inset auto 1.2rem 1rem var(--black-shadow);
+    box-shadow: inset auto 1.2rem 1rem var(--black-shadow);
     -webkit-transform: translateY(1em);
     -ms-transform: translateY(1em);
     transform: translateY(1em);
@@ -825,7 +884,7 @@ body {
     float: right;
     width: 33%;
     position: relative;
-    color: var(--black);
+    color: var(--white);
     text-decoration: none;
     -webkit-transition: 1s;
     -moz-transition: 1s;
@@ -834,10 +893,10 @@ body {
 }
 
 .ss-about--content-google:hover {
-    color: var(--black);
-    -webkit-box-shadow: 0.1rem 0.2rem var(--white-shadow);
-    -moz-box-shadow: 0.1rem 0.2rem var(--white-shadow);
-    box-shadow: 0.1rem 0.2rem var(--white-shadow);
+    color: var(--white);
+    -webkit-box-shadow: 0.1rem 0.2rem var(--black-shadow);
+    -moz-box-shadow: 0.1rem 0.2rem var(--black-shadow);
+    box-shadow: 0.1rem 0.2rem var(--black-shadow);
     -webkit-transform: translateY(-0.3rem);
     -ms-transform: translateY(-0.3rem);
     transform: translateY(-0.3rem);
@@ -851,7 +910,7 @@ body {
     height: 1px;
     bottom: 0;
     left: 0;
-    background-color: var(--black);
+    background-color: var(--white);
     -webkit-transform: scaleX(0);
     -ms-transform: scaleX(0);
     transform: scaleX(0);
@@ -876,9 +935,9 @@ body {
 }
 
 .ss-about--content-google:active {
-    -webkit-box-shadow: inset auto 1.2rem 1rem var(--white-shadow);
-    -moz-box-shadow: inset auto 1.2rem 1rem var(--white-shadow);
-    box-shadow: inset auto 1.2rem 1rem var(--white-shadow);
+    -webkit-box-shadow: inset auto 1.2rem 1rem var(--black-shadow);
+    -moz-box-shadow: inset auto 1.2rem 1rem var(--black-shadow);
+    box-shadow: inset auto 1.2rem 1rem var(--black-shadow);
     -webkit-transform: translateY(1em);
     -ms-transform: translateY(1em);
     transform: translateY(1em);
@@ -891,7 +950,7 @@ body {
     float: right;
     width: 33%;
     position: relative;
-    color: var(--black);
+    color: var(--white);
     text-decoration: none;
     -webkit-transition: 1s;
     -moz-transition: 1s;
@@ -900,10 +959,10 @@ body {
 }
 
 .ss-about--content-linkedin:hover {
-    color: var(--black);
-    -webkit-box-shadow: 0.1rem 0.2rem var(--white-shadow);
-    -moz-box-shadow: 0.1rem 0.2rem var(--white-shadow);
-    box-shadow: 0.1rem 0.2rem var(--white-shadow);
+    color: var(--white);
+    -webkit-box-shadow: 0.1rem 0.2rem var(--black-shadow);
+    -moz-box-shadow: 0.1rem 0.2rem var(--black-shadow);
+    box-shadow: 0.1rem 0.2rem var(--black-shadow);
     -webkit-transform: translateY(-0.3rem);
     -ms-transform: translateY(-0.3rem);
     transform: translateY(-0.3rem);
@@ -917,7 +976,7 @@ body {
     height: 1px;
     bottom: 0;
     left: 0;
-    background-color: var(--black);
+    background-color: var(--white);
     -webkit-transform: scaleX(0);
     -ms-transform: scaleX(0);
     transform: scaleX(0);
@@ -934,9 +993,9 @@ body {
 }
 
 .ss-about--content-linkedin:active {
-    -webkit-box-shadow: inset auto 1.2rem 1rem var(--white-shadow);
-    -moz-box-shadow: inset auto 1.2rem 1rem var(--white-shadow);
-    box-shadow: inset auto 1.2rem 1rem var(--white-shadow);
+    -webkit-box-shadow: inset auto 1.2rem 1rem var(--black-shadow);
+    -moz-box-shadow: inset auto 1.2rem 1rem var(--black-shadow);
+    box-shadow: inset auto 1.2rem 1rem var(--black-shadow);
     -webkit-transform: translateY(1em);
     -ms-transform: translateY(1em);
     transform: translateY(1em);
@@ -959,7 +1018,7 @@ footer p {
     height: 0.08rem;
     margin: auto;
     margin-top: 2rem;
-    background-color: var(--black);
+    background-color: var(--white);
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
@@ -1038,27 +1097,27 @@ footer p {
 /* Opera */
 @-o-keyframes cursor-blink{
     from {border-color: transparent}
-    to {border-color: var(--black);}
+    to {border-color: var(--white);}
 }
 /* Internet Explore 10 */
 @-ms-keyframes cursor-blink{
     from {border-color: transparent}
-    to {border-color: var(--black);}
+    to {border-color: var(--white);}
 }
 /* Firefox */
 @-moz-keyframes cursor-blink{
     from {border-color: transparent}
-    to {border-color: var(--black);}
+    to {border-color: var(--white);}
 }
 /* Webkit */
 @-webkit-keyframes cursor-blink {
     from {border-color: transparent}
-    to {border-color: var(--black);}
+    to {border-color: var(--white);}
 }
 
 @keyframes cursor-blink {
     from {border-color: transparent}
-    to {border-color: var(--black);}
+    to {border-color: var(--white);}
 }
 
 /* Csharp Progress Bar */
@@ -1098,42 +1157,80 @@ footer p {
     100% {width: 10%;}
 }
 
-/* WPF and XAML Progress Bar */
+/* SQL Progress Bar */
 /* Opera */
-@-o-keyframes wpf-and-xaml-bar {
+@-o-keyframes sql-bar {
+    0% {width: 10%; }
+    20% {width: 30%;}
+    90% {width: 30%;}
+    100% {width: 10%;}
+}
+/* Internet Explore 10 */
+@-ms-keyframes sql-bar {
+    0% {width: 10%; }
+    20% {width: 30%;}
+    90% {width: 30%;}
+    100% {width: 10%;}
+}
+/* Firefox */
+@-moz-keyframes sql-bar {
+    0% {width: 10%; }
+    20% {width: 30%;}
+    90% {width: 30%;}
+    100% {width: 10%;}
+}
+/* Webkit */
+@-webkit-keyframes sql-bar {
+    0% {width: 10%; }
+    20% {width: 30%;}
+    90% {width: 30%;}
+    100% {width: 10%;}
+}
+
+@keyframes sql-bar {
+    0% {width: 10%; }
+    20% {width: 30%;}
+    90% {width: 30%;}
+    100% {width: 10%;}
+}
+
+/* Unix & Bash Progress Bar */
+/* Opera */
+@-o-keyframes unix-and-bash-bar {
     0% {width: 10%; }
     20% {width: 50%;}
     90% {width: 50%;}
     100% {width: 10%;}
 }
 /* Internet Explore 10 */
-@-ms-keyframes wpf-and-xaml-bar {
+@-ms-keyframes unix-and-bash-bar {
     0% {width: 10%; }
     20% {width: 50%;}
     90% {width: 50%;}
     100% {width: 10%;}
 }
 /* Firefox */
-@-moz-keyframes wpf-and-xaml-bar {
+@-moz-keyframes unix-and-bash-bar {
     0% {width: 10%; }
     20% {width: 50%;}
     90% {width: 50%;}
     100% {width: 10%;}
 }
 /* Webkit */
-@-webkit-keyframes wpf-and-xaml-bar {
+@-webkit-keyframes unix-and-bash-bar {
     0% {width: 10%; }
     20% {width: 50%;}
     90% {width: 50%;}
     100% {width: 10%;}
 }
 
-@keyframes wpf-and-xaml-bar {
+@keyframes unix-and-bash-bar {
     0% {width: 10%; }
     20% {width: 50%;}
     90% {width: 50%;}
     100% {width: 10%;}
 }
+
 
 /* HTML5/CSS3 Progress Bar */
 /* Opera */
@@ -1176,29 +1273,29 @@ footer p {
 /* Opera */
 @-o-keyframes git-bar {
     0% {width: 10%; }
-    20% {width: 60%;}
-    90% {width: 60%;}
+    20% {width: 50%;}
+    90% {width: 50%;}
     100% {width: 10%;}
 }
 /* Internet Explore 10 */
 @-ms-keyframes git-bar {
     0% {width: 10%; }
-    20% {width: 60%;}
-    90% {width: 60%;}
+    20% {width: 50%;}
+    90% {width: 50%;}
     100% {width: 10%;}
 }
 /* Firefox */
 @-moz-keyframes git-bar {
     0% {width: 10%; }
-    20% {width: 60%;}
-    90% {width: 60%;}
+    20% {width: 50%;}
+    90% {width: 50%;}
     100% {width: 10%;}
 }
 /* Webkit */
 @-webkit-keyframes git-bar {
     0% {width: 10%; }
-    20% {width: 60%;}
-    90% {width: 60%;}
+    20% {width: 50%;}
+    90% {width: 50%;}
     100% {width: 10%;}
 }
 
