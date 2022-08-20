@@ -13,7 +13,7 @@
 ::-webkit-scrollbar {
     width: 1rem;
 }
-  
+
 /* Track */
 ::-webkit-scrollbar-track {
     background: var(--light-gray);
@@ -31,9 +31,10 @@
     border-color: var(--white) var(--black) var(--black) var(--white);
 }
 
-html, body {
+html,
+body {
     height: 100%;
-    width: 60%;
+    width: 100%;
     overflow-x: hidden;
     font-family: 'Times New Roman', Times, serif;
     cursor: default;
@@ -71,12 +72,12 @@ body {
 }
 
 .heading-title img {
-    position:absolute;
+    position: absolute;
     margin: 1.3rem 0 0 0.5rem;
     width: 3rem;
     height: 3rem;
     top: 0;
-    bottom: 0;    
+    bottom: 0;
 }
 
 .heading-title h1 {
@@ -136,7 +137,8 @@ body {
 }
 
 /* Content */
-.main-content p, h2{
+.main-content p,
+h2 {
     margin-right: 1.5rem;
     margin-left: 1.5rem;
     text-align: left;
@@ -191,8 +193,8 @@ body {
     width: 0.8rem;
     background-color: var(--light-gray);
     border: 0.1rem solid;
-    -webkit-box-shadow: 0.1rem 0.1rem  var(--black);
-    box-shadow: 0.1rem 0.1rem  var(--black);
+    -webkit-box-shadow: 0.1rem 0.1rem var(--black);
+    box-shadow: 0.1rem 0.1rem var(--black);
     border-color: var(--light-gray);
 }
 
@@ -249,7 +251,9 @@ body {
 
 /* Sidebar Content */
 
-.main-sidebar h1, h3, p {
+.main-sidebar h1,
+h3,
+p {
     margin: 1rem 2rem;
     text-align: center;
 }
@@ -264,7 +268,7 @@ body {
     background-color: var(--light-tan);
 }
 
-.main-sidebar .education{
+.main-sidebar .education {
     /* Border */
     border: 0.5rem solid;
     -webkit-box-shadow: inset 0.1rem 0.1rem var(--black);
@@ -273,7 +277,7 @@ body {
     background-color: var(--light-tan);
 }
 
-.main-sidebar .projects{
+.main-sidebar .projects {
     /* Border */
     border: 0.5rem solid;
     -webkit-box-shadow: inset 0.1rem 0.1rem var(--black);
