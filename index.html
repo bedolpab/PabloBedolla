@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
 
 <head>
@@ -13,170 +13,174 @@
     <link rel="stylesheet" href="styles.css">
     <!--Website icon-->
     <link rel="icon" href="Assets/icon.ico" type="images/x-icon">
-    <!--Title-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <!--Title-->
     <title>Pablo Cesar Bedolla Ortiz</title>
 </head>
 
 <body>
-    <!--Page heading-->
-    <div class="heading">
-        <!--GIF and title (left side)-->
-        <div class="heading-title">
-            <!--GIF by Nardient on Tumblr-->
-            <img src="Assets/desktop-icon.gif" alt="Windows 98 Computer Icon">
-            <h1>Hi, I'm Pablo Cesar Bedolla Ortiz</h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <div class="container">
+        <header class="d-flex justify-content-center py-3">
+            <h3 class="display-6">Pablo Cesar Bedolla Ortiz</h3>
+        </header>
+    </div>
+    <div class="h-100 d-flex align-items-center justify-content-center">
+        <div class="p-2 d-flex flex-row flex-wrap">
+            <div class="p-2">
+                <img class="img-fluid" src="./Assets/image.jpeg" alt="profile-image" style="width:250px; height:auto;">
+            </div>
+            <div class="p-3 d-flex flex-column">
+                <div class="p-2">
+                    <p>Second-Year Student</p>
+                    <p>Department of Interactive Arts & Media</p>
+                    <p>Columbia College Chicago</p>
+                    <a  class="link-primary" href="mailto:bedolpablo@gmail.com">Email</a>
+                    <a  class="link-primary" href="https://www.linkedin.com/in/bedolpab/">LinkedIn</a>
+                    <a  class="link-primary" href="https://github.com/bedolpab">Github</a>
+                    <a  class="link-primary" href="./Assets/pablo_bedolla_resume.pdf"
+                        download="./Assets/pablo_bedolla_resume.pdf">Resume</a>
+                </div>
+            </div>
         </div>
-        <!--Resume button (right)-->
-        <div class="heading-nav">
-            <div class="nav-buttons">
-                <a href="Assets/Resume.pdf" download="Assets/Resume.pdf">
-                    <button>View Resume</button>
+    </div>
+    <div class="container p-4 h-100 d-flex align-items-center justify-content-center flex-column">
+        <p class="text-center" style="width: 70%;">I am a second-year student at Columbia
+        College
+        Chicago studying
+        Computer Programming and Mathematics.
+        I hold interests in Machine Learning & Mathematics.</p>
+        <div class="d-flex">
+            <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight">View Skills</button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <h5 id="offcanvasRightLabel">Skills</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="flex-row">
+                        <h6>Programming Languages</h6>
+                        <p>C#, Python, Bash, HTML5/CSS</p>
+                        <br>
+                        <h6>Technologies</h6>
+                        <p>Git, Unix, TLA+, Jupyter</p>
+                        <br>
+                        <h6>Libraries</h6>
+                        <p>Numpy, Matplotlib, Bootstrap</p>
+                        <br>
+                        <h6>Spoken Languages</h6>
+                        <p>Fluent English, Fluent Spanish, Beginner German</p>
+                        <br>
+                        <h6>Relevant Knowledge in Topics</h6>
+                        <p>Calculus, Linear Algebra, Data Structure and Algorithms, Machine Learning</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex flex-row h-100 d-flex align-items-center justify-content-center pb-4">
+        <div class="list-group">
+            <div class="list-group-item d-flex gap-3 py-3 h-100 d-flex align-items-center justify-content-center">
+                <a href="https://github.com/bedolpab/Image-Filter"
+                    class="list-group-item list-group-item-action d-flex gap-3 py-3">
+                    <img class="rounded-circle flex-shrink-0"
+                        src="https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png" alt="github"
+                        width="32" height="32" />
+                    <div class="d-flex gap-2 w-100 justify-content-between">
+                        <div>
+                            <h6 class="mb-0">Pixel Manipulation</h6>
+                            <div class="mb-0">
+                                <ul>
+                                    <li>Pixel manipulation application in Python using Pillow</li>
+                                    <li>Utilizes a single versatile function that manipulates RGB values in an image
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <small class="opacity-50 text-nowrap">September 2022 - Present</small>
+                    </div>
+                </a>
+            </div>
+            <div class="list-group-item d-flex gap-3 py-3 h-100 d-flex align-items-center justify-content-center">
+                <a href="https://bedolpab.github.io/Ternel/"
+                    class="list-group-item list-group-item-action d-flex gap-3 py-3">
+                    <img class="rounded-circle flex-shrink-0"
+                        src="https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png" alt="github"
+                        width="32" height="32" />
+                    <div class="d-flex gap-2 w-100 justify-content-between">
+                        <div>
+                            <h6 class="mb-0">Ternel</h6>
+                            <div class="mb-0">
+                                <ul>
+                                    <li>A collection library of solutions and approaches to algorithmic and mathematical
+                                        problems</li>
+                                    <li>Developed and maintain all current library solutions, documentation, and
+                                        documentation
+                                        webpage</li>
+                                    <li>Written strictly in C# or Pseudocode</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <small class="opacity-50 text-nowrap">August 2022 - Present</small>
+                    </div>
+                </a>
+            </div>
+            <div class="list-group-item d-flex gap-3 py-3 h-100 d-flex align-items-center justify-content-center">
+                <a href="https://leaveukraine.com/en" class="list-group-item list-group-item-action d-flex gap-3 py-3">
+                    <img class="rounded-circle flex-shrink-0"
+                        src="https://avatars.githubusercontent.com/u/100431842?s=200&v=4" alt="uasafety" width="32"
+                        height="32" />
+                    <div class="d-flex gap-2 w-100 justify-content-between">
+                        <div>
+                            <h6 class="mb-0">UA Safety</h6>
+                            <div class="mb-0">
+                                <ul>
+                                    <li>A global website containing vital information for Ukrainian refugees</li>
+                                    <li>Implemented and updated website translations using JavaScript along with minor
+                                        refactoring in the
+                                        backend</li>
+                                    <li>Documented border and refugee information for other developers to reference</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <small class="opacity-50 text-nowrap">Feburary 2022 - April 2022</small>
+                    </div>
+                </a>
+            </div>
+            <div class="list-group-item d-flex gap-3 py-3 h-100 d-flex align-items-center justify-content-center">
+                <a href="https://github.com/bedolpab/TheWoodlands"
+                    class="list-group-item list-group-item-action d-flex gap-3 py-3">
+                    <img class="rounded-circle flex-shrink-0"
+                        src="https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png" alt="github"
+                        width="32" height="32" />
+                    <div class="d-flex gap-2 w-100 justify-content-between">
+                        <div>
+                            <h6 class="mb-0">WPF Game</h6>
+                            <div class="mb-0">
+                                <ul>
+                                    <li>UI oriented game designed and implemented in WPF using C#</li>
+                                    <li>Designed 2D elements using Figma</li>
+                                    <li>Developed algorithm for adding and removing UI elements to be dynamically
+                                        displayed</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <small class="opacity-50 text-nowrap">November 2021 - December 2021</small>
+                    </div>
                 </a>
             </div>
         </div>
     </div>
-
-    <!--Main section (about, socials, contact)-->
-    <div class="main">
-        <div class="main-content">
-            <div class="who-i-am">
-                <h2> Who I Am</h2>
-                <p>Hello, my name is Pablo, and I am a second year student at Columbia College Chicago in Chicago,
-                    Illinois. I am currently pursuing a Bachelor of Science in Programming with a concentration in
-                    Application Programming, Minor in Mathematics, with a graduation expectancy in 2025. </p>
-            </div>
-            <div class="about-me">
-                <h2>About Me</h2>
-                <p>I am currently working towards becoming a backend engineer (though not strictly). My proficiency in
-                    my relevant
-                    technologies is gradually increasing day by day as are my relevant skills. I am in the process of
-                    seeking a software
-                    engineering internship.</p>
-            </div>
-            <!--Socials & contact information-->
-            <!--LinkedIn profile-->
-            <div class="info">
-                <div class="info-heading">
-                    <h4>LinkedIn Profile</h4>
-                    <div class="exit">
-                        <p>X</p>
-                    </div>
-                </div>
-                <div class="info-content">
-                    <img src="Assets/LinkedInIcon.svg" alt="temp">
-                    <p>Visit my LinkedIn profile!</p>
-                </div>
-                <div class="info-source">
-                    <button class="info-button" onclick="location.href='https://www.linkedin.com/in/bedolpab/'"
-                        type="button">LinkedIn
-                    </button>
-                </div>
-            </div>
-            <br>
-            <!--Github profile-->
-            <div class="info">
-                <div class="info-heading">
-                    <h4>Github Profile</h4>
-                    <div class="exit">
-                        <p>X</p>
-                    </div>
-                </div>
-                <div class="info-content">
-                    <img src="Assets/GithubIcon.svg" alt="temp">
-                    <p>Visit my Github profile!</p>
-                </div>
-                <div class="info-source">
-                    <button class="info-button" onclick="location.href='https://github.com/bedolpab'"
-                        type="button">Github
-                    </button>
-                </div>
-            </div>
-            <br>
-            <!--Email address-->
-            <div class="info">
-                <div class="info-heading">
-                    <h4>Email Address</h4>
-                    <div class="exit">
-                        <p>X</p>
-                    </div>
-                </div>
-                <div class="info-content">
-                    <img src="Assets/GoogleIcon.svg" alt="temp">
-                    <p>Feel free to email me if you have any questions.</p>
-                </div>
-                <div class="info-source">
-                    <button class="info-button" onclick="location.href='mailto:bedolpablo@gmail.com'"
-                        type="button">Email
-                    </button>
-                </div>
-            </div>
-            <br>
-        </div>
-
-        <!--Skills, education, and projects-->
-        <div class="main-sidebar">
-            <div class="skills">
-                <h1>Skills</h1>
-                <h3>Programming Languages</h3>
-                <p>C#, Python, HTML5/CSS3</p>
-                <h3>Technologies</h3>
-                <p>Git, Unix, Bash</p>
-                <h3>Design</h3>
-                <p>Figma, InVision</p>
-            </div>
-            <div class="projects">
-                <h1>Projects</h1>
-                <h3>Explorable Places</h3>
-                <p>UI oriented game designed and implemented using <b>WPF</b> and <b>C#</b>. Designed 2D elements using
-                    <b>Figma</b>. Refactored and integrated installation and removal of elements to be <b>dynamically
-                        handled</b>. Developed for course <i>PROG 101-02</i> at <i>Columbia College Chicago</i>.</p>
-                <div class="project-info">
-                    <button class="project-info-button"
-                        onclick="location.href='https://github.com/bedolpab/TheWoodlands'" type="button">View Project
-                    </button>
-                </div>
-                <h3>Leave Ukraine</h3>
-                <p>A global website containing vital information for Ukrainian refugees. Implemented and updated website
-                    translations using <b>JSON</b> and <b>JavaScript</b> along with minor refactoring in the
-                    <b>backend</b>. Documented border and refugee information for other developers to reference.
-                    Contribution to organization <i>TechFor</i>.</p>
-                <div class="project-info">
-                    <button class="project-info-button" onclick="location.href='https://leaveukraine.com/'"
-                        type="button">View Project
-                    </button>
-                    <button class="project-info-button"
-                        onclick="location.href='https://columbiachronicle.com/tag/leaveukraine'" type="button">Article
-                    </button>
-                </div>
-                <h3>Pixel Manipulation</h3>
-                <p>Formulated and introduced a pixel manipulation project using <b>Python</b>. Authored <b>pixel
-                        manipulation algorithms</b> for image filters. Developed for course <i>AP Computer Science</i>
-                    at <i>J Sterling Morton East High School</i>.</p>
-                <div class="project-info">
-                    <button class="project-info-button"
-                        onclick="location.href='https://github.com/bedolpab/Image-Filter'" type="button">View Project
-                    </button>
-                </div>
-            </div>
-            <div class="education">
-                <h1>Education</h1>
-                <h3>Columbia College Chicago - <i>Expected 2025</i></h3>
-                <p>Bachelor of Science in Programming, Concentration in Application Programming, Minor in Mathematics;
-                    GPA: 3.84/4.0</p>
-                <h3><i>Awards</i></h3>
-                <p>Dean's List Fall 2021</p>
-                <h3><i>Relevant Coursework</i></h3>
-                <p>Programming I, Programming II, Programming III, Computer Architecture, Quantitative Reasoning,
-                    Introduction to Statistics, Calculus I, Fundamentals of Physics, C++ Programming, Fundamentals of
-                    Interaction</p>
-            </div>
-        </div>
+    <!--Project 1-->
     </div>
-
 </body>
-<footer>
-    <section class="ss-footer--line"></section>
-    <p>Pablo Bedolla, 2022 | Inspired by Windows 98</p>
+<footer class="bg-transparent text-center text-muted">
+    <p> &copy; Pablo Bedolla, 2022</p>
 </footer>
 
 </html>
