@@ -1,223 +1,132 @@
 <!doctype html>
 <html lang="en-US">
 
-<head>
-    <!--Meta tags-->
-    <meta charset="UTF-8">
-    <meta name="description" content="Pablo Cesar Bedolla Ortiz - Mathematics & Machine Learning" />
-    <meta name="keywords"
-        content="Pablo,Bedolla,Ortiz,Cesar,Mathetmatics, Chicago, Machine, Learning, Columbia, Illinois, Undergrad" />
-    <meta name="author" content="Pablo Cesar Bedolla Ortiz" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:title" content="Pablo Cesar Bedolla Ortiz" />
-    <meta property="og:description" content="Pablo Cesar Bedolla Ortiz - Mathematics & Machine Learning" />
-    <meta property="og:image"
-        content="https://user-images.githubusercontent.com/70508631/200126680-ac9ea003-c7b7-4569-9d53-89493c10d5aa.jpeg" />
-    <meta property="og:url" content="https://www.pablobedolla.com" />
-    <meta property="og:type" content="website" />
-    <!--CSS file-->
-    <link rel="stylesheet" href="styles.css">
-    <!--Website icon-->
-    <link rel="icon" href="./Assets/icon.ico" type="images/x-icon">
-    <!--Title-->
-    <title>Pablo Cesar Bedolla Ortiz</title>
-    <!--Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-</head>
+    <head>
+        <!--Meta tags-->
+        <meta charset="UTF-8">
+        <meta name="description" content="Pablo Cesar Bedolla Ortiz - Mathematics & Machine Learning" />
+        <meta name="keywords"
+            content="Pablo,Bedolla,Ortiz,Cesar,Mathetmatics, Chicago, Machine, Learning, Columbia, Illinois, Undergrad" />
+        <meta name="author" content="Pablo Cesar Bedolla Ortiz" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="Pablo Cesar Bedolla Ortiz" />
+        <meta property="og:description" content="Pablo Cesar Bedolla Ortiz - Mathematics & Machine Learning" />
+        <meta property="og:image"
+            content="https://user-images.githubusercontent.com/70508631/213901407-b679d8de-5230-4851-a7ab-7b21bafaf862.JPG" />
+        <meta property="og:url" content="https://www.pablobedolla.com" />
+        <meta property="og:type" content="website" />
+        <!--CSS file-->
+        <link rel="stylesheet" href="styles.css">
+        <!--Website icon-->
+        <link rel="icon" href="./Assets/desktop-icon.gif" type="images/x-icon">
+        <!--Title-->
+        <title>Pablo Cesar Bedolla Ortiz</title>
+    </head>
 
-<body>
-    <!-- #region Bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
-    <!-- #endregion -->
-
-    <!-- #region Header-->
-    <div class="container">
-        <header class="d-flex justify-content-center py-3">
-            <h3 class="display-6">Pablo Cesar Bedolla Ortiz</h3>
-        </header>
-    </div>
-    <!-- #endregion -->
-
-    
-    <div class="h-100 d-flex align-items-center justify-content-center">
-        <div class="p-2 d-flex flex-row flex-wrap">
-            <div class="p-2">
-                <img class="img-fluid" src="./Assets/image.jpeg" alt="profile-image" style="width:250px; height:auto;">
+    <body>
+        <div class="header">
+            <div class="content">
+                <img src="./Assets/image.JPG" alt="Profile Picture" width="150px">
             </div>
-            <div class="p-3 d-flex flex-column">
-                <div class="p-2">
-                    <p>Second-Year Student</p>
-                    <p>Department of Mathematics, Computer Science</p>
-                    <p>Dominican University</p>
-                    <a class="link-primary" href="mailto:bedolpablo@gmail.com">Email</a>
-                    <a class="link-primary" href="https://www.linkedin.com/in/bedolpab/">LinkedIn</a>
-                    <a class="link-primary" href="https://github.com/bedolpab">Github</a>
-                    <a class="link-primary" href="./Assets/pablo_bedolla_resume.pdf"
-                        download="./Assets/pablo_bedolla_resume.pdf">Resume</a>
+            <div class="header-links">
+                <div class="header-links-title">
+                    <p id="name">Pablo Cesar Bedolla Ortiz</p>
+                    <p>B.S. Math & CS, Student, ML</p>
+                    <p id="study">I'm a math and computer science undergrad studying at Dominican University. Current
+                        focus consists of Network Analysis and Graph Theory applications in CS/ML.</p>
+                </div>
+                <a href="mailto:bedolpablo@gmail.com">bedolpablo@gmail.com</a>
+                <a href="https://www.linkedin.com/in/bedolpab/" target="_blank">linkedin/@bedolpab</a>
+                <a href="https://github.com/bedolpab" target="_blank">github/@bedolpab</a>
+                <a href="./Assets/pablo_bedolla_resume.pdf" target="_blank">view resume</a>
+            </div>
+        </div>
+        <div class="pages">
+            <hr id="line">
+            <div class="pages-links">
+                <a href="#projects">Projects</a>
+                <a href="./blog.html">Blog</a>
+                <a href="./resume.html">Resume</a>
+            </div>
+            <hr id="line">
+        </div>
+        <div id="projects">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <div class="project-item-head">
+                    <h4>FBI Wanted Analysis</h4>
+                    <h4>2023</h4>
+                </div>
+                <div class="project-item-content">
+                    <p>Used FBI's API to apply SNA & Clustering in Python to uncover patterns in criminal activity. Data
+                        cleaning and processing to analyze data using Pandas, NumPy, NetworkX. (<a
+                            href="https://github.com/bedolpab/FBI-Wanted-Analysis">source</a>)</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-item-head">
+                    <h4>CCC Social Network Scraper</h4>
+                    <h4>2022</h4>
+                </div>
+                <div class="project-item-content">
+                    <p>Columbia College Chicago (CCC) - Designed & Tested Python web scraper using Selenium automation.
+                        Retrieves student data from my institution's social network and stored in a CSV file. Discovered
+                        and exposed a series of vulnerabilities previously unknown and worked with responsible vendors
+                        to fix. (<a href="https://github.com/bedolpab/CCC-Scraper">source</a>)</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-item-head">
+                    <h4>UA Safety (Contributor)</h4>
+                    <h4>2022</h4>
+                </div>
+                <div class="project-item-content">
+                    <p>A global website containing vital information for Ukrainian refugees. Implemented and updated
+                        website translations using JavaScript along with minor refactoring in the backend. Documented
+                        border and refugee information for other developers to reference. (<a
+                            href="https://github.com/Ukraine-Relief-Efforts/ukraine-info-guide">source</a>)</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-item-head">
+                    <h4>Ternel</h4>
+                    <h4>2022</h4>
+                </div>
+                <div class="project-item-content">
+                    <p>A collection library of solutions and approaches to algorithmic and mathematical problems written
+                        in C# and Java. (<a href="https://github.com/bedolpab/Ternel">source</a>)</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-item-head">
+                    <h4>WPF Interactive Game</h4>
+                    <h4>2022</h4>
+                </div>
+                <div class="project-item-content">
+                    <p>UI oriented game designed and implemented in WPF using C#. Designed 2D elements using Figma.
+                        Highlight consists of an installation and removal of inventory elements to be dynamically
+                        handled. (<a href="https://github.com/bedolpab/TheWoodlands">source</a>)</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-item-head">
+                    <h4>Pixel Manipulation</h4>
+                    <h4>2022</h4>
+                </div>
+                <div class="project-item-content">
+                    <p>Pixel manipulation application in Python using Pillow. Utilizes a single versatile function that
+                        manipulates RGB values in an image. (<a
+                            href="https://github.com/bedolpab/Image-Filter">source</a>)</p>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container p-4 h-100 d-flex align-items-center justify-content-center flex-column">
-        <p class="text-center" style="width: 70%;">I am a second-year student at Dominican University studying
-            Computer Science and Mathematics.
-            I hold interests in Machine Learning & Mathematics.</p>
-        <div class="d-flex">
-            <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">View Skills</button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
-                aria-labelledby="offcanvasRightLabel">
-                <div class="offcanvas-header">
-                    <h5 id="offcanvasRightLabel">Skills</h5>
-                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <div class="flex-row">
-                        <h6>Programming Languages</h6>
-                        <p>C#, Python, C++, MATLAB, Bash, SQL, HTML5/CSS</p>
-                        <br>
-                        <h6>Technologies</h6>
-                        <p>Git, Unix, Jupyter, Postgress, .NET</p>
-                        <br>
-                        <h6>Libraries</h6>
-                        <p>NumPy, Matplotlib, Selenium, Flask</p>
-                        <br>
-                        <h6>Spoken Languages</h6>
-                        <p>Fluent English, Fluent Spanish, Beginner German</p>
-                        <br>
-                        <h6>Relevant Knowledge in Topics</h6>
-                        <p>Calculus, Linear Algebra, Data Structure and Algorithms, Machine Learning</p>
-                    </div>
-                </div>
-            </div>
+        <div id="blog">
+            <h2>Blog</h2>
+            <p>Coming soon... </p>
         </div>
-    </div>
-<div class="d-flex flex-row h-100 d-flex align-items-center justify-content-center pb-4">
-    <div class="list-group">
-        <div class="list-group-item d-flex gap-3 py-3 h-100 d-flex align-items-center justify-content-center">
-            <a href="#"
-                class="list-group-item list-group-item-action d-flex gap-3 py-3">
-                <img class="rounded-circle flex-shrink-0"
-                    src="https://pbs.twimg.com/profile_images/1016427491609624576/VXL3HGOn_400x400.jpg" alt="github" width="32"
-                    height="32" />
-                <div class="d-flex gap-2 w-100 justify-content-between">
-                    <div>
-                        <h6 class="mb-0">CCC Scraper</h6>
-                        <div class="mb-0">
-                            <ul>
-                                <li>Designed & Tested Python web scraper using Selenium automation.</li>
-                                <li>Retrieves student data from my institution's social network and stored in Postgres database
-                                </li>
-                                <li>Discovered and exposed a series of vulnerabilities previously unknown and worked with responsible vendors to
-                                fix.</li>
-                                <small class="opacity-50 text-nowrap">This project is private due to secuirty reasons. Please contact me for any questions.</small>
-
-                            </ul>
-                        </div>
-                    </div>
-                    <small class="opacity-50 text-nowrap">November 2022</small>
-                </div>
-            </a>
-        </div>
-    <div class="d-flex flex-row h-100 d-flex align-items-center justify-content-center pb-4">
-        <div class="list-group">
-            <div class="list-group-item d-flex gap-3 py-3 h-100 d-flex align-items-center justify-content-center">
-                <a href="https://github.com/bedolpab/Image-Filter"
-                    class="list-group-item list-group-item-action d-flex gap-3 py-3">
-                    <img class="rounded-circle flex-shrink-0"
-                        src="https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png" alt="github"
-                        width="32" height="32" />
-                    <div class="d-flex gap-2 w-100 justify-content-between">
-                        <div>
-                            <h6 class="mb-0">Pixel Manipulation</h6>
-                            <div class="mb-0">
-                                <ul>
-                                    <li>Pixel manipulation application in Python using Pillow</li>
-                                    <li>Utilizes a single versatile function that manipulates RGB values in an image
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <small class="opacity-50 text-nowrap">September 2022</small>
-                    </div>
-                </a>
-            </div>
-            <div class="list-group-item d-flex gap-3 py-3 h-100 d-flex align-items-center justify-content-center">
-                <a href="https://bedolpab.github.io/Ternel/"
-                    class="list-group-item list-group-item-action d-flex gap-3 py-3">
-                    <img class="rounded-circle flex-shrink-0"
-                        src="https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png" alt="github"
-                        width="32" height="32" />
-                    <div class="d-flex gap-2 w-100 justify-content-between">
-                        <div>
-                            <h6 class="mb-0">Ternel</h6>
-                            <div class="mb-0">
-                                <ul>
-                                    <li>A collection library of solutions and approaches to algorithmic and mathematical
-                                        problems</li>
-                                    <li>Developed and maintain all current library solutions, documentation, and
-                                        documentation
-                                        webpage</li>
-                                    <li>Written strictly in C# or Pseudocode</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <small class="opacity-50 text-nowrap">August 2022</small>
-                    </div>
-                </a>
-            </div>
-            <div class="list-group-item d-flex gap-3 py-3 h-100 d-flex align-items-center justify-content-center">
-                <a href="https://leaveukraine.com/en" class="list-group-item list-group-item-action d-flex gap-3 py-3">
-                    <img class="rounded-circle flex-shrink-0"
-                        src="https://avatars.githubusercontent.com/u/100431842?s=200&v=4" alt="uasafety" width="32"
-                        height="32" />
-                    <div class="d-flex gap-2 w-100 justify-content-between">
-                        <div>
-                            <h6 class="mb-0">UA Safety</h6>
-                            <div class="mb-0">
-                                <ul>
-                                    <li>A global website containing vital information for Ukrainian refugees</li>
-                                    <li>Implemented and updated website translations using JavaScript along with minor
-                                        refactoring in the
-                                        backend</li>
-                                    <li>Documented border and refugee information for other developers to reference</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <small class="opacity-50 text-nowrap">Feburary 2022 - April 2022</small>
-                    </div>
-                </a>
-            </div>
-            <div class="list-group-item d-flex gap-3 py-3 h-100 d-flex align-items-center justify-content-center">
-                <a href="https://github.com/bedolpab/TheWoodlands"
-                    class="list-group-item list-group-item-action d-flex gap-3 py-3">
-                    <img class="rounded-circle flex-shrink-0"
-                        src="https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png" alt="github"
-                        width="32" height="32" />
-                    <div class="d-flex gap-2 w-100 justify-content-between">
-                        <div>
-                            <h6 class="mb-0">WPF Game</h6>
-                            <div class="mb-0">
-                                <ul>
-                                    <li>UI oriented game designed and implemented in WPF using C#</li>
-                                    <li>Designed 2D elements using Figma</li>
-                                    <li>Developed algorithm for adding and removing UI elements to be dynamically
-                                        displayed</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <small class="opacity-50 text-nowrap">November 2021</small>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-    </div>
-
-</body>
+    </body>
+    <footer>
+        <p>Pablo Cesar Bedolla Ortiz | Portfolio</p>
+    </footer>
 
 </html>
