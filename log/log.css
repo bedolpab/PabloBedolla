@@ -4,37 +4,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 50px;
-}
-
-#name {
-    font-weight: bold;
-}
-
-#study {
-    width: 300px;
-    font-size: medium;
-}
-
-.content {
-    font-size: larger;
-    display: flex;
-    justify-content: right;
-    align-items: right;
-    width: 50%;
-    margin-right: 50px;
-}
-
-.content img {
-    width: 150px;
-    height: auto;
-}
-
 .header-links {
     font-size: larger;
     display: flex;
@@ -47,7 +16,7 @@ body {
 }
 
 .header-links a {
-    color: #2f4c52;
+    color: #2F2F2F;
     font-weight: lighter;
     font-size: medium;
 }
@@ -85,5 +54,46 @@ body {
 
 .pages-links a {
     margin: 10px;
-    color: #2f4c52;
+    color: #2F2F2F;
+}
+
+#log {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.log-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    text-align: left;
+    width: 70%;
+}
+
+.log-element {
+    font-weight: medium;
+    margin: 0;
+}
+
+.log-element span {
+    color: #2F2F2F;
+    float: right;
+}
+
+.log-element h4 {
+    margin: 0;
+    color: #2F2F2F;
+    text-decoration: none;
+}
+
+.log-element p {
+    margin: 0;
+    padding-top: 5px;
+    text-align: left;
+    font-style: italic;
 }

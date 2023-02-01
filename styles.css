@@ -49,7 +49,7 @@ body {
 }
 
 .header-links a {
-    color: #2f4c52;
+    color: #2F2F2F;
     font-weight: lighter;
     font-size: medium;
 }
@@ -86,7 +86,7 @@ body {
 
 .pages-links a {
     margin: 10px;
-    color: #2f4c52;
+    color: #2F2F2F;
 }
 
 #projects {
@@ -123,20 +123,52 @@ body {
 }
 
 .project-item-content a {
-    color: #2f4c52;
+    color: #2F2F2F;
 }
 
 .projects h4 {
     font-weight: 400;
 }
 
-#blog {
+#log {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: left;
     margin-top: 50px;
     align-items: center;
+}
+
+.log-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    text-align: left;
+    width: 70%;
+}
+
+.log-element {
+    font-weight: medium;
+    margin: 0;
+}
+
+.log-element span {
+    color: #2F2F2F;
+    float: right;
+}
+
+.log-element h4 {
+    margin: 0;
+    color: #2F2F2F;
+    text-decoration: none;
+}
+
+.log-element p {
+    margin: 0;
+    padding-top: 5px;
+    text-align: left;
+    font-style: italic;
 }
 
 footer {
