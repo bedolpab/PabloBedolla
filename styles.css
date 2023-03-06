@@ -41,11 +41,9 @@ body {
     font-size: larger;
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    align-items: left;
-    text-align: left;
-    width: 50%;
-    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .header-links a {
