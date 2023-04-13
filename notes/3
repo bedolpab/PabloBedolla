@@ -1,0 +1,37 @@
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usepackage[colorinlistoftodos]{todonotes}
+
+\title{MATH 262-01 Notes}  
+\date{\today}
+\begin{document}
+\maketitle
+\section{Midpoint Rule}
+We assume that $n = \mathbb{Z}^+$. Given an integral \(\int_{a}^{b}f(x)\,dx\), we split the interval into $n$ parts from $[a, b]$. We take the midpoint of these intervals. Our $\delta x$ is defined as $\frac{b-a}{n}$. Thus, $M_{n}$ = $\delta x[f(x_{n})+f(x_{n+1})+..+f(x_{n-1})]$
+
+\section{Trapezoid Rule}
+We split again into $n$ intervals from $[a,b]$. This time, we take every $n$ interval between $[a,b]$ rather than the middle part. If we have a numberline from $1, 2, 3, 4, 5$, we take all those elements. 
+\newline
+However, this time, we divide $\delta x$ by 2 and multiply every $n$th element between $n$ and $n-1$ by 2.
+\begin{center}
+  $\frac{\delta x}{2} = f(a) + 2f(n) + 2f(n+1) + 2f(n+2) + f(b)$
+\end{center}
+
+\section{Simpsons Rule}
+Same rules apply, except this time we divide by 3 instead and rather alternate by multiplying 4 then 2 then 4 then 2 and so on.
+
+\begin{center}
+ $\frac{\delta x}{3} = f(a) + 4f(n) + 2f(n+1) + 4f(n+2) + f(b)$
+\end{center}
+
+\section{Error for Midpoint, Trapezoid}
+When finding the error for both of thes rules, our goal is to find a $K$ in which $K = |f(x)^{''}|\le K$
+\end{document}
+
