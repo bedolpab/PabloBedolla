@@ -1,0 +1,16 @@
+{
+  "logs": [
+    {
+      "title": "NASA MINDS",
+      "year": "October 9th, 2023",
+      "description": "We propose a cost-effective, multi-deployment approach to collect real-time data on celestial surfaces. Current missions are expensive, singular, and static. Our compact device, similar in size to a smartphone, will anchor manually into lunar terrain, by astronauts or rovers. It integrates GPS, temperature, atmospheric, and radiation sensors to monitor lunar conditions. These sensors ensure precise data collection for safer astronaut missions and ideal base locations. Solar sensors on the device allow for continuous power. When deployed in numbers, our devices create a lunar data farm. We aim to make this concept a reality, contributing to celestial colonization.",
+      "source": "../logs/nasa_mind.txt"
+    },
+    {
+      "title": "Ranking Coures With BM25",
+      "year": "Janurary 31st, 2023",
+      "description": "Implementing the BM25 ranking algorithm to rank courses at Dominican University ",
+      "source": "https://github.com/bedolpab/CourseRank"
+    }
+  ]
+}

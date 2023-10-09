@@ -1,0 +1,58 @@
+{
+  "projects": [
+    {
+      "title": "Nasa JPL Scraper",
+      "year": "2023",
+      "description": "This Python script scrapes images from the NASA Jet Propulsion Laboratory (JPL) website using BeautifulSoup4 (bs4) library.",
+      "source": "https://github.com/bedolpab/NASA-JPL-Scraper.git"
+    },
+    {
+      "title": "Lapses",
+      "year": "2023",
+      "description": "DCGAN to generate synthetic images to destroy the model to represent loss of cognitive function (Dementia). Collaborated with Neuroscience Professor & other esteemed faculty members at my university to apply ML techniques to scientifically construct and accurately represent the project and optimize the model. Utilized Python, Keras, scikit-image, TensorFlow, and NumPy. Developed web scraper for the training dataset.",
+      "source": "https://github.com/bedolpab/Lapses.git"
+    },
+    {
+      "title": "CourseRank",
+      "year": "2023",
+      "description": "Implemented custom BM25 ranking algorithm in Python using Pandas, NumPy, and Jupyter Notebook. Optimized to rank courses at Dominican University based on description relevancy given query.",
+      "source": "https://github.com/bedolpab/CourseRank.git"
+    },
+    {
+      "title": "FBI Wanted Analysis",
+      "year": "2023",
+      "description": "Used FBI's API to apply SNA & Clustering in Python to uncover patterns in criminal activity. Data cleaning and processing to analyze data using Pandas, NumPy, NetworkX.",
+      "source": "https://github.com/bedolpab/FBI-Wanted-Analysis"
+    },
+    {
+      "title": "CCC Social Network Scraper",
+      "year": "2022",
+      "description": "Columbia College Chicago (CCC) - Designed & Tested Python web scraper using Selenium automation. Retrieves student data from my institution's social network and stored in a CSV file. Discovered and exposed a series of vulnerabilities previously unknown and worked with responsible vendors to fix.",
+      "source": "https://github.com/bedolpab/CCC-Scraper"
+    },
+    {
+      "title": "UA Safety (Contributor)",
+      "year": "2022",
+      "description": "A global website containing vital information for Ukrainian refugees. Implemented and updated website translations using JavaScript along with minor refactoring in the backend. Documented border and refugee information for other developers to reference.",
+      "source": "https://github.com/Ukraine-Relief-Efforts/ukraine-info-guide"
+    },
+    {
+      "title": "Ternel",
+      "year": "2022",
+      "description": "A collection library of solutions and approaches to algorithmic and mathematical problems written in C# and Java.",
+      "source": "https://github.com/bedolpab/Ternel"
+    },
+    {
+      "title": "WPF Interactive Game",
+      "year": "2022",
+      "description": "UI oriented game designed and implemented in WPF using C#. Designed 2D elements using Figma. Highlight consists of an installation and removal of inventory elements to be dynamically handled.",
+      "source": "https://github.com/bedolpab/TheWoodlands"
+    },
+    {
+      "title": "Pixel Manipulation",
+      "year": "2022",
+      "description": "Pixel manipulation application in Python using Pillow. Utilizes a single versatile function that manipulates RGB values in an image.",
+      "source": "https://github.com/bedolpab/Image-Filter"
+    }
+  ]
+}

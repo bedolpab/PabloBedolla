@@ -1,16 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-US">
 
     <head>
-        <!--Meta tags-->
-        <meta charset="UTF-8">
-        <meta name="description" content="Pablo Cesar Bedolla Ortiz - Mathematics & Machine Learning" />
+        <meta charset="UTF-8" />
+        <meta name="description" content="Pablo Cesar Bedolla Ortiz, Math & CS @ DU" />
         <meta name="keywords"
-            content="Pablo,Bedolla,Ortiz,Cesar,Mathetmatics, Chicago, Machine, Learning, Columbia, Illinois, Undergrad" />
+            content="Pablo,Bedolla,Ortiz,Cesar,Mathetmatics, Chicago, Computer Science, Dominican University" />
         <meta name="author" content="Pablo Cesar Bedolla Ortiz" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:title" content="Pablo Cesar Bedolla Ortiz" />
-        <meta property="og:description" content="Pablo Cesar Bedolla Ortiz - Mathematics & Machine Learning" />
+        <meta property="og:description"
+            content="Pablo Cesar Bedolla Ortiz,  Math & CS @ Dominican University, Incoming Research Assistant Intern @ RUSH, Ex-SWE Intern @ Credit Karma " />
         <meta property="og:image"
             content="https://user-images.githubusercontent.com/70508631/213901407-b679d8de-5230-4851-a7ab-7b21bafaf862.JPG" />
         <meta property="og:url" content="https://www.pablobedolla.com" />
@@ -19,6 +19,9 @@
         <link rel="stylesheet" href="styles.css">
         <!--Website icon-->
         <link rel="icon" href="./Assets/desktop-icon.gif" type="images/x-icon">
+        <!--Javascript-->
+        <script src="js/projects.js"></script>
+        <script src="js/logs.js"></script>
         <!--Title-->
         <title>Pablo Cesar Bedolla Ortiz</title>
     </head>
@@ -28,15 +31,10 @@
             <div class="header-links">
                 <div class="header-links-title">
                     <p id="name">Pablo Cesar Bedolla Ortiz</p>
-                    <p>B.S. Math & CS, Student</p>
-                    <p id="study">Math and Computer Science at Dominican University.
-                        <br><br>
-                        Ex SWE Intern @ <i>Credit Karma</i> (Core Product Experimentation) Summer 2023
-                        <br>
-                        <br>
-                        Incoming Clinical Research Assistant @ <i>RUSH University Medical Center</i> Fall 2023 (Machine
-                        Learning & Computer Vision)
-                    </p>
+                    <p>B.S. Mathematics & Computer Science</p>
+                    <p class="study">Dominican University, River Forest, IL</p>
+                    <p class="study">Incoming Research Assistant Intern @ RUSH University Medical Center</p>
+                    <p class="study">Ex-Software Engineer Intern @ Credit Karma</p>
                 </div>
                 <a href="https://www.linkedin.com/in/bedolpab/" target="_blank">linkedin/@bedolpab</a>
                 <a href="https://github.com/bedolpab" target="_blank">github/@bedolpab</a>
@@ -46,135 +44,18 @@
             <hr id="line">
             <div class="pages-links">
                 <a href="#projects">Projects</a>
-                <a href="#log">Log</a>
-                <a href="./notes.html">Notes</a>
             </div>
             <hr id="line">
         </div>
         <div id="projects">
             <h2>Projects</h2>
-            <div class="project-item">
-                <div class="project-item-head">
-                    <h4>Nasa JPL Scraper</h4>
-                    <h4>2023</h4>
-                </div>
-                <div class="project-item-content">
-                    <p>This Python script scrapes images from the NASA Jet Propulsion Laboratory (JPL) website using
-                        BeautifulSoup4 (bs4)
-                        library.
-                        (<a href="https://github.com/bedolpab/NASA-JPL-Scraper.git">source</a>)</p>
-                </div>
-            </div>
-            <div class="project-item">
-                <div class="project-item-head">
-                    <h4>Lapses</h4>
-                    <h4>2023</h4>
-                </div>
-                <div class="project-item-content">
-                    <p>DCGAN to generate synthetic images to destroy the model to represent loss of cognitive function
-                        (Dementia). Collaborated with Neuroscience Professor & other esteemed faculty members at my
-                        university to apply ML techniques to scientifically construct and accurately represent the
-                        project and optimize the model. Utilized Python, Keras, scikit-image, TensorFlow, and NumPy.
-                        Developed web scraper for the training dataset.
-                        (<a href="https://github.com/bedolpab/Lapses.git">source</a>)</p>
-                </div>
-            </div>
-            <div class="project-item">
-                <div class="project-item-head">
-                    <h4>CourseRank</h4>
-                    <h4>2023</h4>
-                </div>
-                <div class="project-item-content">
-                    <p>Implemented custom BM25 ranking algorithm in Python using Pandas, NumPy, and Jupyter Notebook.
-                        Optimized to rank courses at Dominican University based on description relevancy given query.
-                        (<a href="https://github.com/bedolpab/CourseRank.git">source</a>)</p>
-                </div>
-            </div>
-            <div class="project-item">
-                <div class="project-item-head">
-                    <h4>FBI Wanted Analysis</h4>
-                    <h4>2023</h4>
-                </div>
-                <div class="project-item-content">
-                    <p>Used FBI's API to apply SNA & Clustering in Python to uncover patterns in criminal activity. Data
-                        cleaning and processing to analyze data using Pandas, NumPy, NetworkX. (<a
-                            href="https://github.com/bedolpab/FBI-Wanted-Analysis">source</a>)</p>
-                </div>
-            </div>
-            <div class="project-item">
-                <div class="project-item-head">
-                    <h4>CCC Social Network Scraper</h4>
-                    <h4>2022</h4>
-                </div>
-                <div class="project-item-content">
-                    <p>Columbia College Chicago (CCC) - Designed & Tested Python web scraper using Selenium automation.
-                        Retrieves student data from my institution's social network and stored in a CSV file. Discovered
-                        and exposed a series of vulnerabilities previously unknown and worked with responsible vendors
-                        to fix. (<a href="https://github.com/bedolpab/CCC-Scraper">source</a>)</p>
-                </div>
-            </div>
-            <div class="project-item">
-                <div class="project-item-head">
-                    <h4>UA Safety (Contributor)</h4>
-                    <h4>2022</h4>
-                </div>
-                <div class="project-item-content">
-                    <p>A global website containing vital information for Ukrainian refugees. Implemented and updated
-                        website translations using JavaScript along with minor refactoring in the backend. Documented
-                        border and refugee information for other developers to reference. (<a
-                            href="https://github.com/Ukraine-Relief-Efforts/ukraine-info-guide">source</a>)</p>
-                </div>
-            </div>
-            <div class="project-item">
-                <div class="project-item-head">
-                    <h4>Ternel</h4>
-                    <h4>2022</h4>
-                </div>
-                <div class="project-item-content">
-                    <p>A collection library of solutions and approaches to algorithmic and mathematical problems written
-                        in C# and Java. (<a href="https://github.com/bedolpab/Ternel">source</a>)</p>
-                </div>
-            </div>
-            <div class="project-item">
-                <div class="project-item-head">
-                    <h4>WPF Interactive Game</h4>
-                    <h4>2022</h4>
-                </div>
-                <div class="project-item-content">
-                    <p>UI oriented game designed and implemented in WPF using C#. Designed 2D elements using Figma.
-                        Highlight consists of an installation and removal of inventory elements to be dynamically
-                        handled. (<a href="https://github.com/bedolpab/TheWoodlands">source</a>)</p>
-                </div>
-            </div>
-            <div class="project-item">
-                <div class="project-item-head">
-                    <h4>Pixel Manipulation</h4>
-                    <h4>2022</h4>
-                </div>
-                <div class="project-item-content">
-                    <p>Pixel manipulation application in Python using Pillow. Utilizes a single versatile function that
-                        manipulates RGB values in an image. (<a
-                            href="https://github.com/bedolpab/Image-Filter">source</a>)</p>
-                </div>
-            </div>
         </div>
         <div id="log">
             <h2>Log</h2>
-            <div class="log-element">
-                <a href="./log/logs/log1.html">
-                    <h4>Ranking Courses With BM25<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6.5 24 24"
-                            width="1em" fill="currentColor">
-                            <path
-                                d="M7.828 2.414H2.243a1 1 0 1 1 0-2h8a.997.997 0 0 1 1 1v8a1 1 0 0 1-2 0V3.828l-6.779 6.779A1 1 0 0 1 1.05 9.192l6.778-6.778z">
-                            </path>
-                        </svg> <span>January 31, 2023</span></h4>
-                </a>
-                <p>Implementing the BM25 ranking algorithm to rank courses at Dominican University </p>
-            </div>
         </div>
     </body>
     <footer>
-        <p>Pablo Cesar Bedolla Ortiz | Portfolio</p>
+        <p>Pablo Cesar Bedolla Ortiz | 2023</p>
     </footer>
 
 </html>
