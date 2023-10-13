@@ -18,10 +18,20 @@ body {
   font-weight: bold;
 }
 
+#major {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
 .study {
-  width: 300px;
   font-size: medium;
   padding: 10px;
+}
+
+.uni {
+  font-weight: light;
+  font-size: medium;
+  padding: 1px;
 }
 
 .content {
