@@ -18,7 +18,7 @@ fetch(jsonFilePath)
 
         var header = document.createElement("a");
         header.className = "project-item-title";
-        header.href = `${p.link}`;
+        header.href = `${p.source}`;
         header.textContent = `${p.title}`;
 
         var year = document.createElement("h4");
