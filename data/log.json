@@ -3,7 +3,7 @@
     {
       "title": "NASA MINDS",
       "year": "October 9th, 2023",
-      "description": "We propose a cost-effective, multi-deployment approach to collect real-time data on celestial surfaces. Current missions are expensive, singular, and static. Our compact device, similar in size to a smartphone, will anchor manually into lunar terrain, by astronauts or rovers. It integrates GPS, temperature, atmospheric, and radiation sensors to monitor lunar conditions. These sensors ensure precise data collection for safer astronaut missions and ideal base locations. Solar sensors on the device allow for continuous power. When deployed in numbers, our devices create a lunar data farm. We aim to make this concept a reality, contributing to celestial colonization.",
+      "description": "Our focus remains on automating the monitoring of lunar conditions in order to maintain an ongoing process of harvesting sensor data. We solely focus on lunar topography. NASA's pioneering projects necessitate cost-effective solutions, given recent budget reductions. Our official proposal, “Integration of LIDAR Technology for Self- Sufficient Lunar Sensors,” aims to contribute both scientifically and frugally to these initiatives. Our device would relay valuable topographic information to scientists. With a large-scale adoption of our device, a detailed, continually updated, topographic map of the lunar surface could be transmitted for analysis.",
       "source": "../logs/nasa_mind.txt"
     },
     {
