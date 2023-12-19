@@ -1,6 +1,12 @@
 {
   "projects": [
     {
+	 "title": "NASA MUREP MINDS",
+	 "year": "2023-2024",
+	 "description": "Founded Science and Technology Applications for Research in Space at home institution, leading a private 10-student, 3-faculty research team for NASA’s Artemis mission. Conceptualized fixed LIDAR data collection device to employ at a lunar south pole location for slope computation, elevation modeling, and autonomous vehicle training, emphasizing field-of-view perspective data. Secured $1,500 in funding from NASA to support research initiative following a research proposal",
+	 "source": "https://github.com/STARS-Dominican-University"
+	  },
+    {
       "title": "Nasa JPL Scraper",
       "year": "2023",
       "description": "This Python script scrapes images from the NASA Jet Propulsion Laboratory (JPL) website using BeautifulSoup4 (bs4) library.",
