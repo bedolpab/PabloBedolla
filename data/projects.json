@@ -1,11 +1,23 @@
 {
   "projects": [
     {
+      "title": "Preparation for Industrial Careers in Mathematics — Confidential",
+      "year": "2024",
+      "description": "As part of the PIC Math program sponsored by the Mathematical Association of America (MAA) and the National Science Foundation (NSF), this course immerses students in industrial research to tackle real-world mathematical problems beyond academia. Students collaborate with industry partners, utilizing machine learning, data science, and tools like Python to analyze local business data, contributing to the economic impact team. Additionally, the course emphasizes ethical considerations in data analysis, professional communication, and teamwork skills essential for nonacademic career paths in mathematics. Grading is based on various assessments including ethics discussions, progress reports, presentations, and a final report.",
+      "source": "https://www.dom.edu"
+    },
+    {
+      "title": "NASA/ASU L'SPACE Program",
+      "year": "2024",
+      "description": "Leading science team on theorical Mars human exploration research. Trained weekly by NASA experts in mission development and team collaboration. Chief Scientist for theoretical Mars research for assigned team.",
+      "source": "https://www.lspace.asu.edu"
+    },
+	{
 	 "title": "NASA MUREP MINDS",
 	 "year": "2023-2024",
-	 "description": "Founded Science and Technology Applications for Research in Space at home institution, leading a private 10-student, 3-faculty research team for NASA’s Artemis mission. Conceptualized fixed LIDAR data collection device to employ at a lunar south pole location for slope computation, elevation modeling, and autonomous vehicle training, emphasizing field-of-view perspective data. Secured $1,500 in funding from NASA to support research initiative following a research proposal",
+	 "description": "Founded Science and Technology Applications for Research in Space at home institution, leading a private 10- student, 3-faculty research team for NASA’s Artemis mission. Conceptualized fixed LIDAR data collection device to employ at a lunar south pole location for slope computation, elevation modeling, and autonomous vehicle training, emphasizing field-of-view perspective data. Secured $1,500 in funding from NASA to support research initiative following a research proposal",
 	 "source": "https://github.com/STARS-Dominican-University"
-	  },
+	},
     {
       "title": "Nasa JPL Scraper",
       "year": "2023",
