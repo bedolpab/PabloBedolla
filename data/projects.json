@@ -36,12 +36,6 @@
       "source": "https://github.com/bedolpab/FBI-Wanted-Analysis"
     },
     {
-      "title": "CCC Social Network Scraper",
-      "year": "2022",
-      "description": "Columbia College Chicago (CCC) - Designed & Tested Python web scraper using Selenium automation. Retrieves student data from my institution's social network and stored in a CSV file. Discovered and exposed a series of vulnerabilities previously unknown and worked with responsible vendors to fix.",
-      "source": "https://github.com/bedolpab/CCC-Scraper"
-    },
-    {
       "title": "UA Safety (Contributor)",
       "year": "2022",
       "description": "A global website containing vital information for Ukrainian refugees. Implemented and updated website translations using JavaScript along with minor refactoring in the backend. Documented border and refugee information for other developers to reference.",
