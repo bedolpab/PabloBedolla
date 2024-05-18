@@ -32,7 +32,7 @@
                 </div>
             </div>
             <div class="header-container">
-                <img src="../Assets/headshot.jpg" alt="Pablo C. Bedolla Ortiz Headshot">
+                <img src="./Assets/headshot.jpg" alt="Pablo C. Bedolla Ortiz Headshot">
             </div>
         </div>
         <div class="content">
@@ -42,7 +42,7 @@
     </div>
 
     <script>
-        fetch("../data/content.json")
+        fetch("./data/content.json")
             .then(response => response.json())
             .then(data => {
                 for (let i = 0; i < data['content'].length; i++) {
