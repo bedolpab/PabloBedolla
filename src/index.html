@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pablo Cesar Bedolla Ortiz, Mathematics and Electrical Engineering" />
+    <meta name="keywords" content="Pablo, Bedolla, Math, Electrical Engineering, NASA, Chicago, Computer, Science" />
+    <meta property="og:title" content="Pablo Cesar Bedolla Ortiz" />
+    <meta property="og:description" content="Pablo Cesar Bedolla Ortiz, Mathematics and Electrical Engineering">
+    <meta property="og:url" content="https://www.pablobedolla.com" />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="./input.css">
+    <title>Pablo C. Bedolla Ortiz</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-container">
+                <div class="title">
+                    <h2>Pablo Cesar Bedolla Ortiz</h2>
+                    <p>Electrical Engineering, Mathematics, Physics</p>
+                </div>
+                <div class="description">
+                    <p>MSP Research Fellow @ <a href="www.nasa.gov">NASA Jet Propulsion Laboratory</a></p>
+                    <p>
+                        <a href="mailto:pbedollaortiz@my.dom.edu">pbedollaortiz@my.dom.edu</a> &sol;
+                        <a href="https://github.com/bedolpab">Github</a> &sol;
+                        3.8 GPA
+                    </p>
+                </div>
+            </div>
+            <div class="header-container">
+                <img src="../Assets/headshot.jpg" alt="Pablo C. Bedolla Ortiz Headshot">
+            </div>
+        </div>
+        <div class="content">
+            <h3>Research, Academics, & Professional Involvement</h3>
+            <!--js-->
+        </div>
+    </div>
+
+    <script>
+        fetch("../data/content.json")
+            .then(response => response.json())
+            .then(data => {
+                for (let i = 0; i < data['content'].length; i++) {
+                    const contentSection = document.createElement('div');
+                    contentSection.classList.add('content-section');
+
+                    const contentSectionTitle = document.createElement('div');
+                    contentSectionTitle.classList.add("content-section-title");
+
+                    const contentSectionTitleLink = document.createElement('a');
+                    contentSectionTitleLink.text = data['content'][i]['title'][0]['name']
+                    contentSectionTitleLink.href = data['content'][i]['title'][0]['link']
+                    contentSectionTitle.appendChild(contentSectionTitleLink)
+
+
+                    const authors = document.createElement('div');
+                    authors.classList.add('authors');
+
+                    for (let j = 0; j < data['content'][i]['authors'].length; j++) {
+                        const span_tag = document.createElement('span');
+                        span_tag.textContent = data['content'][i]['authors'][j];
+                        authors.appendChild(span_tag);
+                        if (j < data['content'][i]['authors'].length - 1) {
+                            authors.appendChild(document.createTextNode(', '));
+                        }
+                    }
+
+                    const event = document.createElement('div');
+                    event.classList.add('event')
+
+                    const event_name = document.createElement('span');
+                    const event_year = document.createElement('span');
+                    event_year.classList.add('year');
+
+                    event_name.textContent = data['content'][i]['event']['name'];
+                    event_year.textContent = data['content'][i]['event']['year'];
+
+                    event.appendChild(event_name)
+                    event.appendChild(event_year)
+
+
+                    const btn_links = document.createElement('div');
+                    btn_links.classList.add('btn-links');
+
+                    for (let k = 0; k < data['content'][i]['button-links'].length; k++) {
+                        const a_tag = document.createElement('a');
+                        a_tag.text = data['content'][i]['button-links'][k]['name'];
+                        a_tag.href = data['content'][i]['button-links'][k]['link'];
+                        btn_links.appendChild(a_tag);
+                    }
+
+                    contentSection.appendChild(contentSectionTitle)
+                    contentSection.appendChild(contentSectionTitle)
+                    contentSection.appendChild(authors)
+                    contentSection.appendChild(event)
+                    contentSection.appendChild(btn_links)
+
+                    document.getElementsByClassName('content')[0].appendChild(contentSection);
+                }
+            })
+            .catch(error => {
+                console.error(error);
+            })
+    </script>
+</body>
+
+</html>
