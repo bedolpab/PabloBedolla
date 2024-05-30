@@ -43,11 +43,18 @@
   margin-bottom: -5px;
 }
 
+footer {
+  text-align: center;
+  margin: 40px;
+  font-family: sans-serif;
+}
+
+/* CONTENT */
 
 .content h3 {
   text-align: left;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-weight: 600;
 }
 
@@ -98,4 +105,66 @@
   border-radius: 4px;
   padding: 3px;
   font-weight: 300;
+}
+
+/* AWARDS */
+
+.awards h3 {
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.award-section {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.award-section div {
+  padding-top: 10px;
+}
+
+.award-section-title a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #5c0b0d;
+}
+
+.event {
+  margin-bottom: 2px;
+}
+
+.award-description {
+  font-weight: 300;
+}
+
+/* MENTIONS */
+
+.mentions h3 {
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.mention-section {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.mention-section div {
+  padding-top: 10px;
+}
+
+.mention-section-title a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #55420f;
+}
+
+.event {
+  margin-bottom: 2px;
 }

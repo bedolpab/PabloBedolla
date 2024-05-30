@@ -1,0 +1,20 @@
+{
+    "mentions": [
+        {
+            "title": {
+                "name": "Dominican Students Receive Research Funding From NASA",
+                "link":"https://dominicanstar.com/dominican-students-receive-research-funding-from-nasa/"
+            },
+            "year": "2024",
+            "phase": "Spring"
+        },
+        {
+            "title": {
+                "name": "Border crossings and missile alerts: Volunteers create website with resources for Ukrainians fleeing the country",
+                "link": "https://columbiachronicle.com/border-crossings-and-missile-alerts-volunteers-create-website-with-resources-for-ukrainians-fleeing-the-country"
+            },
+            "year": "2022",
+            "phase": "Spring"
+        }
+    ]
+}

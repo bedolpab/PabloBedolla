@@ -39,8 +39,19 @@
             <h3>Research, Academics, & Professional Involvement</h3>
             <!--js-->
         </div>
-    </div>
+        <div class="awards">
+            <h3>Awards & Recognitions</h3>
+            <!--js-->
+        </div>
+        <div class="mentions">
+            <h3>Mentions</h3>
+            <!--js-->
+        </div>
 
+    </div>
+    <footer>
+        <span>2024 &copy; Pablo C. Bedolla Ortiz</span>
+    </footer>
     <script>
         fetch("./data/content.json")
             .then(response => response.json())
@@ -105,6 +116,80 @@
             })
             .catch(error => {
                 console.error(error);
+            })
+
+        fetch("./data/awards.json")
+            .then(response => response.json())
+            .then(data => {
+                for (let i = 0; i < data['awards'].length; i++) {
+                    const awardSection = document.createElement('div');
+                    awardSection.classList.add('award-section');
+
+                    const awardSectionTitle = document.createElement('div');
+                    awardSectionTitle.classList.add("award-section-title");
+
+                    const awardSectionTitleLink = document.createElement('a');
+                    awardSectionTitleLink.text = data['awards'][i]['title']['name'];
+                    awardSectionTitleLink.href = data['awards'][i]['title']['link'];
+                    awardSectionTitle.appendChild(awardSectionTitleLink);
+
+                    const event = document.createElement('div');
+                    event.classList.add('event')
+
+                    const event_year = document.createElement('span');
+                    const event_phase = document.createElement('span');
+                    event_year.classList.add('year');
+
+                    event_phase.textContent = data['awards'][i]['phase'];
+                    event_year.textContent = data['awards'][i]['year'];
+
+                    event.appendChild(event_phase)
+                    event.appendChild(event_year)
+
+                    const description = document.createElement("span");
+                    description.classList.add('award-description');
+                    description.textContent = data['awards'][i]['description'];
+
+                    awardSection.appendChild(awardSectionTitle);
+                    awardSection.appendChild(event);
+                    awardSection.appendChild(description);
+
+                    document.getElementsByClassName('awards')[0].appendChild(awardSection);
+                }
+            })
+        fetch("./data/mentions.json")
+            .then(response => response.json())
+            .then(data => {
+                for (let i = 0; i < data['mentions'].length; i++) {
+                    const awardSection = document.createElement('div');
+                    awardSection.classList.add('mention-section');
+
+                    const awardSectionTitle = document.createElement('div');
+                    awardSectionTitle.classList.add("mention-section-title");
+
+                    const awardSectionTitleLink = document.createElement('a');
+                    awardSectionTitleLink.text = data['mentions'][i]['title']['name'];
+                    awardSectionTitleLink.href = data['mentions'][i]['title']['link'];
+                    awardSectionTitle.appendChild(awardSectionTitleLink);
+
+                    const event = document.createElement('div');
+                    event.classList.add('event')
+
+                    const event_year = document.createElement('span');
+                    const event_phase = document.createElement('span');
+                    event_year.classList.add('year');
+
+                    event_phase.textContent = data['mentions'][i]['phase'];
+                    event_year.textContent = data['mentions'][i]['year'];
+
+                    event.appendChild(event_phase)
+                    event.appendChild(event_year);
+
+                    awardSection.appendChild(awardSectionTitle);
+                    awardSection.appendChild(event);
+
+                    document.getElementsByClassName('mentions')[0].appendChild(awardSection);
+                }
             })
     </script>
 </body>

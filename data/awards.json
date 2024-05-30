@@ -1,0 +1,58 @@
+{
+    "awards": [
+        {
+            "title": {
+                "name": "Dominican University Dean's List",
+                "link": "https://www.dom.edu/"
+            },
+            "year": "2024",
+            "phase": "Spring",
+            "description": "Dominican University Dean's List distinction for attaining a grade point average of 3.80 on 12 or more graded hours."
+        },
+        {
+            "title": {
+                "name": "NASA Jet Propulsion Laboratory Maximizing Student Potential (MSP) Research Fellowship",
+                "link": "https://www.jpl.nasa.gov/edu/intern/apply/maximizing-student-potential/"
+            },
+            "year": "2024",
+            "phase": "Summer",
+            "description": "Maximizing Student Potential research fellowship on the Surface Water and Ocean Topography (SWOT) & Sentinel-6 Michael Freilich (Sentinel-6A) operations team working on tools and analysis to support the mission."
+        },
+        {
+            "title": {
+                "name": "NASA MUREP MINDS Funding Recepient",
+                "link": "https://nasaminds.org/"
+            },
+            "year": "2023-2024",
+            "phase": "Fall-Spring",
+            "description": "Secured $1,500 in funding from NASA to support research initiative following a formulated research proposal. Second Place in Technical Paper Award."
+        },
+        {
+            "title": {
+                "name": "Columbia College Chicago Dean's List",
+                "link": "https://about.colum.edu/provost/office-of-the-registrar/pdf/deans-list-for-site-FA22.pdf"
+            },
+            "year": "2022",
+            "phase": "Fall",
+            "description": "Columbia College Chicago Dean's List distinction for attaining a grade point average of 3.75 on 12 or more graded hours."
+        },
+        {
+            "title": {
+                "name": "Columbia College Chicago Dean's List",
+                "link": "https://about.colum.edu/provost/office-of-the-registrar/pdf/deans-list-for-site-fa21.pdf"
+            },
+            "year": "2021",
+            "phase": "Fall",
+            "description": "Columbia College Chicago Dean's List distinction for attaining a grade point average of 3.75 on 12 or more graded hours."
+        },
+        {
+            "title": {
+                "name": "Keep Moving Forward Scholarship Recipient",
+                "link": "#"
+            },
+            "year": "2021",
+            "phase": "Fall",
+            "description": "Keep Moving Forward Scholarship recipient received senior year of high school."
+        }
+    ]
+}
