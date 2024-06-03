@@ -39,6 +39,10 @@
                 {
                     "name": "Information",
                     "link": "https://www.lspace.asu.edu/"
+                },
+                {
+                    "name": "Certificates / Badges",
+                    "link": "../Assets/Research/lspace"
                 }
             ]
         },
