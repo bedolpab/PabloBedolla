@@ -28,6 +28,7 @@
 
 .header-container img {
   max-width: 200px;
+  border-radius: 20px;
 }
 
 .title {
